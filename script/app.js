@@ -119,7 +119,7 @@ function printUsuario(arrayUser){
                  <p>${user.address.city}</p>
             </div>
             <div class="nombre">
-            <p>Ciudad</p>
+            <p>Zipcode</p>
              </div>
             <div class="detalle">
              <p>${user.address.zipcode}</p>
