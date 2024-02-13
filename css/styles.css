@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200;1,500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
+
+body {
+    background-color: #bfbeff;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.contenedor-principal{
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.contenedor-principal h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+
+}
+
+.contenedor-botones{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.boton-usuario , .boton-post{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.boton-usuario button {
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    background-color:  #fefe82  ;
+    font-size: 30px;
+   
+}
+
+.boton-post button {
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    background-color:#fefe82 ;
+    font-size: 30px;
+
+}
+
+.contenedor-listado{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.listado-usuarios, .listado-post{
+  
+   
+    text-align: center;
+}
+
+.contenedor-usuario{
+    background-color: #bfbeff;
+    margin-bottom: 30px;
+}
+
+.contenedor-usuario p{
+    height: 40px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: left;
+    padding-left:20px;
+    font-weight: bold;
+}
+
+.contenedor-usuario p span {
+    color:blue;
+}
+
+.titulo-listados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    color:black;
+
+}
+
+.titulo-listado-usuario, .titulo-listado-post{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.contenedor-usuario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    background-color: white;
+   
+}
+
+.nombre{
+    color:black;
+  
+}
+
+.detalle{
+    color:blue;
+    
+}
+
+.nombre p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-post{
+    border: 1px solid black;
+}
